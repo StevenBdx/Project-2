@@ -12,10 +12,12 @@
     color: var(--main-color);
 }
 
-.head {
+header {
     display: flex;
     flex-direction: row;
-    gap: 946px;
+    justify-content: space-between;
+    height: 79px;
+
 }
 
 .navigate {
@@ -24,9 +26,12 @@
     align-items: center;
     gap: 68px;
     font-size: 16px;
-    align-items: flex-start;
-    margin: 25px;
+}
+.button-one :hover {
+    color: #0065FC;
 
+    
+    
 }
 
 body {
@@ -40,15 +45,19 @@ body {
     padding: 0 50px;
     box-sizing: border-box;
 }
+.logo-container {
+    height: 79px ;
+}
 
 .imglogo {
-    width: 61.09px;
-    height: 19px;
-    margin: 50px 30px;
+    width: 150px;
+    height: 79px;
+    padding: 30px 50px;
+    
 }
 
 a {
-    color: inherit;
+    color: inherit; /*a supprimer ? */
     text-decoration: none;
 }
 

@@ -7,10 +7,27 @@
     --main-bg-color: #F2F2F2;
     --filter-bg-color: #DEEBFF;
 }
+.fa-location-dot {
+    display: flex;
+    justify-content:  space-around;
+    align-items: center;
+    color: black;
+    font-size: 18px;
+    width: 40px;
+    background-color: #F2F2F2;
+    height: 28px;
+    border-top-left-radius: 15px ;
+    border-bottom-left-radius: 15px ;
+    padding: 15px;
+   
+   
+}
 
 .fa-solid {
     color: var(--main-color);
+
 }
+
 
 header {
     display: flex;
@@ -48,6 +65,45 @@ header {
 }
 .button :hover:after {
     width: 100%;
+}
+
+h1 {
+    font-size: 22px;
+}
+p {
+    margin-top: -10px;
+}
+
+form{
+    display: flex;
+}
+
+    
+input {
+    display: flex;
+    border: 1px solid #F2F2F2;
+    font-size: 20px;
+    justify-content: center;
+    text-align: center;
+    background-color: inherit;
+    color: inherit;
+    padding: 15px;
+    
+}
+
+
+
+
+.city {
+    
+    
+}
+
+.search {
+    background-color: #0065FC;
+    color: white;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
 }
 
 body {
@@ -111,6 +167,7 @@ a {
 .hebergements-and-populaires {
     display: flex;
     justify-content: space-between;
+    padding-top: 20px; /*modifier pour work sur barre de recherche*/
 }
 
 .hebergements-and-populaires section {

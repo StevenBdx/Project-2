@@ -70,9 +70,6 @@ header {
 h1 {
     font-size: 22px;
 }
-p {
-    margin-top: -10px;
-}
 
 form{
     display: flex;
@@ -91,12 +88,82 @@ input {
     
 }
 
+.Allfilters {
+    display: flex;
+    padding-top: 35px;
+    gap: 15px;
+    font-size: 18px;
+    font-weight: bold;
 
+}
 
+.eco {
+    display: flex;
+    border: 2px solid #F2F2F2;
+    padding: 2px 18px;
+    border-radius: 25px;
 
-.city {
-    
-    
+}
+
+.eco:hover {
+    background-color: #DEEBFF;
+}
+
+.family {
+    display: flex;
+    border: 2px solid #F2F2F2;
+    padding: 2px 18px;
+    border-radius: 25px;
+}
+
+.family:hover{
+    background-color: #DEEBFF;
+}
+
+.romantic {
+    display: flex;
+    border: 2px solid #F2F2F2;
+    padding: 2px 18px;
+    border-radius: 25px;
+}
+
+.romantic:hover {
+    background-color: #DEEBFF;
+}
+
+.themust {
+    display: flex;
+    border: 2px solid #F2F2F2;
+    padding: 2px 18px;
+    border-radius: 25px;
+}
+
+.themust:hover {
+    background-color: #DEEBFF;
+}
+
+.fa-money-bill-wave {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+.fa-person{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+.fa-heart {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+.fa-fire {
+    display: flex;
+    align-items: center;
+    padding: 10px;
 }
 
 .search {

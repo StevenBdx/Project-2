@@ -361,7 +361,8 @@ a {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    padding: 20px;
+    padding-left: 25px;
+    padding-right: 25px;
 }
 
 .activity-card a {
@@ -387,6 +388,29 @@ a {
     filter: drop-shadow(0px 3px 15px rgba(0, 0, 0, 0.1));
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
+}
+
+.foot {
+    background-color: #F2F2F2;
+    width: 100%;
+    display: flex;
+    margin-top: 50px;
+    font-size: 16px;
+}
+
+.foot-title {
+    font-size: 18px;
+}
+ul {
+    list-style-type: none;
+    padding-left: 7px;
+}
+.foot-column-size {
+    width: 31%;
+}
+
+li {
+    margin: 10px;
 }
 
 

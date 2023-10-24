@@ -10,7 +10,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
         integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        crossorigin="anonymous" referrerpolicy="no-referrer">
     <link rel="stylesheet" href="./css/style.css">
 </head>
 
@@ -23,29 +23,29 @@
 
             <nav class="navigate">
                 <div class="button">
-                    <a href="#">Hébergements</a>
+                    <a href="#hebergement">Hébergements</a>
                 </div>
                 <div class="button">
-                    <a href="#">Activités</a>
+                    <a href="#activity">Activités</a>
                 </div>
             </nav>
         </header>
-        <section>
+        <div>
             <div class="section-title">
                 <h1>Trouvez votre hébergement pour des vancances de rêve</h1>
             </div>
             <div>
                 <p>En plein centre-ville ou en pleine nature</p>
             </div>
-            <section>
+            <div>
                 <form method="get">
                     <i class="fas fa-location-dot"></i>
                     <input type="text" name="location" id="location" placeholder="Marseille,France">
                     <input class="search" type="submit" value="Rechercher" name="search" id="search">
 
                 </form>
-            </section>
-            <section class="Allfilters">
+            </div>
+            <div class="Allfilters">
                 <div class="filter">
                     <p>Filtres</p>
                 </div>
@@ -65,19 +65,19 @@
                     <i class="fa-solid fa-fire"></i>
                     <p>Nos pépites</p>
                 </div>
-            </section>
-            <section class="info">
+            </div>
+            <div class="info">
                 <div>
                     <i class="fa-solid fa-info"></i>
                 </div>
                 <div>
                     <p>Plus de 500 logements sont disponibles dans cette ville</p>
                 </div>
-            </section>
-        </section>
+            </div>
+        </div>
 
         <main>
-            <div class="hebergements-and-populaires">
+            <div class="hebergements-and-populaires" id="hebergement">
                 <section class="hebergements">
 
                     <h2 class="section-title">Hébergements à Marseille</h2>
@@ -202,7 +202,7 @@
                                 </div>
                             </article>
                         </a>
-                        </a>
+                        
 
                     </div>
                     <div class="show-more">
@@ -282,7 +282,7 @@
                     </div>
                 </section>
             </div>
-            <section class="activities">
+            <section class="activities" id="activity">
                 <div>
                     <h2 class="section-title">Activités à Marseille</h2>
                 </div>
@@ -334,7 +334,30 @@
                 </div>
             </section>
         </main>
-        <footer>
+        <footer class="foot"> 
+                <div class="foot-column-size">     
+                    <ul>
+                        <li class="foot-title"><strong>A propos</strong></li>
+                        <li>Fonctionnement du site</li>
+                        <li>Conditions générales</li>
+                        <li>Données et confidentialité</li>
+                    </ul>
+                </div>
+                <div class="foot-column-size">
+                    <ul>
+                        <li class="foot-title"><strong>Nos hébergements</strong></li>
+                        <li>Charte qualité</li>
+                        <li>Proposer votre hôtel</li>
+                    </ul>
+
+                </div>
+                <div class="foot-column-size">
+                    <ul>
+                        <li class="foot-title"><strong>Assistance</strong></li>
+                        <li>Centre d'aide</li>
+                        <li>Nous contacter</li>
+                    </ul>
+                </div>   
         </footer>
     </div>
 </body>

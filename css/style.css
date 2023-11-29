@@ -53,7 +53,7 @@ header {
 
 .button :hover {
     color: #0065FC;
-}
+} 
 
 .button :after {
     content: "";
@@ -67,7 +67,7 @@ header {
 
 .button :hover:after {
     width: 100%;
-}
+} 
 
 h1 {
     font-size: 22px;
@@ -168,7 +168,7 @@ button {
     display: flex;
     border: 2px solid #87878778;
     border-radius: 100%;
-    padding: 10px;
+    padding: 3px;
     width: 16px;
     height: 16px;
     justify-content: space-around;
@@ -226,6 +226,17 @@ a {
 
 .card-title {
     font-size: 16px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.card-subtitle {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.activity-card .card-title {
+    margin: 16px 0px;
 }
 
 .euro {
@@ -480,6 +491,11 @@ li {
     .activity-card img {
         height: 200px;
     }
+
+    .title-fragment {
+        display: flex;
+        flex-direction: column;
+    }
     
 }
 
@@ -508,6 +524,19 @@ li {
         width: 50%;
         display: flex;
         justify-content: center;
+        padding-bottom: 20px;
+    }
+
+    .nav-item-active {
+        border-bottom: 2px solid #0065FC;
+    }
+
+    .navigate {
+        gap: 0px;
+    }
+
+    .nav-item-inactive {
+        border-bottom: 2px solid lightgray ;
     }
 
     .button:active {
@@ -515,8 +544,7 @@ li {
     }
 
     .button :after {
-        bottom: -15px;
-        top: inherit;
+        display: none;
     }
 
     .search {
@@ -615,6 +643,10 @@ li {
 
     .activity-card .card-content {
         height: auto;
+    }
+
+    .title-fragment {
+        flex-direction: row;
     }
 
     .foot {
